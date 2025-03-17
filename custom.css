@@ -30,6 +30,9 @@ body .navbar-toggler:focus {box-shadow: none !important;}
     body .navbar-expand-lg .navbar-collapse {
         text-align: center !important;
     }
+    body .navbar-nav {
+      padding-top: 20px !important;
+    }
 }
 
 
