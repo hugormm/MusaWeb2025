@@ -1,0 +1,77 @@
+body {
+    background-color: aquamarine;
+}
+
+body .bg-body-tertiary {
+    background-color: #f3ebe7 !important;
+}
+
+body .navbar-expand-lg .navbar-collapse {
+    justify-content: end !important;
+}
+
+body .navbar-toggler {
+    border: 0 !important;
+}
+
+body .container-fluid {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+body .navbar-nav {
+    gap: 20px !important;
+}
+
+body .navbar-toggler:focus {box-shadow: none !important;}
+
+@media screen and (max-width: 1200px) {
+    body .navbar-expand-lg .navbar-collapse {
+        text-align: center !important;
+    }
+}
+
+
+/**/
+.menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+  }
+  .line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+  }
+  .line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  .opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+  }
+  .opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  
