@@ -12,6 +12,7 @@ body .navbar-expand-lg .navbar-collapse {
 
 body .navbar-toggler {
     border: 0 !important;
+    padding: 0 !important;
 }
 
 body .container-fluid {
